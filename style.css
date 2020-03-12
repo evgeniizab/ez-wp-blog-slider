@@ -1,0 +1,68 @@
+
+/* КАРУСЕЛЬ УСПЕШНЫЕ ДЕЛА */
+.my-deals {
+
+height:auto;
+overflow:hidden;
+background:#fff;
+}
+.my-deals-img{
+    width:100%;
+    max-height:100%;
+}
+.my-deals-div-img {
+
+float:left;
+width:45%;
+height:100%;
+background:#fff;
+border:2px solid #e8e8e8;
+}
+.my-deals-dsc span {
+color:#0274be;
+}
+.my-deals-dsc h3 {
+font-weight:bold;
+}
+.my-deals-dsc {
+margin-left:60px;
+float:left;
+width:45%;
+height:100%;
+padding:20px;
+background:#f5f5f5;
+}
+div.my-deals-btn {
+text-align:center;
+}
+.my-deals-btn a {
+display:inline-block;
+margin:auto;
+padding:15px;
+border:1px solid #e8e8e8;
+border-radius:3px;
+
+font-style:bold;
+}
+.my-deals-pdf {
+position: relative;
+bottom: 35px;
+margin-left:50px;
+margin-bottom:40px;
+
+}
+.my-deals-pdf img {
+margin-right:10px;
+}
+/* ПЛАШКА */
+
+
+@media screen and (max-width: 900px) {
+.my-deals {
+height:auto !important;}
+.my-deals-div-img,.my-deals-dsc {
+width:100%;float:none;
+}
+.my-deals-dsc {
+margin-left:0px !important;}
+}
