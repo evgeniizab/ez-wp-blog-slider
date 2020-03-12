@@ -1,0 +1,1 @@
+# ez-wp-blog-slider
